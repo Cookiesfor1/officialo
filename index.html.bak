@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Damborg Productions</title>
+		<link rel="icon" type="image/x-icon" href="img/logo.jpeg">
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Amarante&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel='stylesheet' href="css/swiper.css">
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+<body class="dark">
+	<header>
+		<div class="container">
+			<div class="header-flex">
+				<div class="logo">
+					<a href="#"><img src="img/logo.jpeg" alt="logo"></a>
+				</div>
+				<div class="right-menu">
+					<div class="nav">
+						<ul>
+							<li><a href="index.html" class="active">Home</a></li>
+							<li><a href="index.html#offers">Offeres</a></li>
+							<li><a href="videos.html">Videos</a></li>
+							<li><a href="contact.php">Contact</a></li>
+						</ul>
+					</div>
+					
+					<i class="fa fa-bars" aria-hidden="true" onclick="openmenu();"></i>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="top-sec">
+		<div class="background-shapes"></div>
+		<div class="container">
+			<div class="two-col">
+				<div>
+					<h1>Damborg Productions</h1>
+					<p>This whole element, background included, only weighs about 5kb</p>
+					<div class="wrapper">
+						<a class="link" href="contact.html">
+							<div class="color"></div>
+							<span>CONTACT US</span>
+							<i class="fa fa-arrow-right"></i>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="videocontainer">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/SPaAjBdnz74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="about" class="sec">
+		<div class="container">
+			<div class="heading">
+				<h2>ABOUT <span>US</span></h2>
+			</div>
+			<div class="two-col-content">
+				<div class="">
+					<img src="img/logo.jpeg">
+				</div>
+				<div>
+					<h3>About Our Service</h3>
+					<p>Hiring a video editor for your YouTube channel, your digital marketing agency or your business is probably one of the best investments you can make in 2024.</p>
+					<p>Using a video editing agency is better than pretty much all of the other options you have: hire an expensive full-time editor, use an unreliable freelancer, or waste time editing videos yourself instead of putting your valuable time into something more important for you.</p>
+					<p>With our fixed rate per project, you will have your video editing costs under control and you can allocate more time and money to growing your business.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="offers" class="sec">
+		<div class="container">
+			<div class="heading">
+				<h2>WE <span>OFFER</span></h2>
+			</div>
+			<div class="three-col">
+				<div class="card text-center first-card">
+					<div class="title">
+						<i class="fa fa-paper-plane" aria-hidden="true"></i>
+						<h2>Basic</h2>
+					</div>
+					<div class="price">
+						<h4><sup>$</sup>25</h4>
+					</div>
+					<div class="option">
+						<ul>
+							<li> <i class="fa fa-check" aria-hidden="true"></i> 10 GB Space </li>
+							<li> <i class="fa fa-check" aria-hidden="true"></i> 3 Domain Names </li>
+							<li> <i class="fa fa-check" aria-hidden="true"></i> 20 Email Address </li>
+							<li> <i class="fa fa-times" aria-hidden="true"></i> Live Support </li>
+						</ul>
+					</div>
+					<a href="#">Order Now </a>
+				</div>
+				
+				<div class="card text-center second-card">
+					<div class="title">
+						<i class="fa fa-plane" aria-hidden="true"></i>
+						<h2>Standard</h2>
+					</div>
+					<div class="price">
+						<h4><sup>$</sup>50</h4>
+					</div>
+					<div class="option">
+						<ul>
+							<li> <i class="fa fa-check" aria-hidden="true"></i> 50 GB Space </li>
+							<li> <i class="fa fa-check" aria-hidden="true"></i> 5 Domain Names </li>
+							<li> <i class="fa fa-check" aria-hidden="true"></i> Unlimited Email Address </li>
+							<li> <i class="fa fa-times" aria-hidden="true"></i> Live Support </li>
+						</ul>
+					</div>
+					<a href="#">Order Now </a>
+				</div>
+				
+				<div class="card text-center third-card">
+					<div class="title">
+						<i class="fa fa-rocket" aria-hidden="true"></i>
+						<h2>Premium</h2>
+					</div>
+					<div class="price">
+						<h4><sup>$</sup>100</h4>
+					</div>
+					<div class="option">
+						<ul>
+							<li> <i class="fa fa-check" aria-hidden="true"></i> Unlimited GB Space </li>
+							<li> <i class="fa fa-check" aria-hidden="true"></i> 30 Domain Names </li>
+							<li> <i class="fa fa-check" aria-hidden="true"></i> Unlimited Email Address </li>
+							<li> <i class="fa fa-check" aria-hidden="true"></i> Live Support </li>
+						</ul>
+					</div>
+					<a href="#">Order Now </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="testimonials" class="sec">
+		<div class="container">
+			<div class="heading">
+				<h2>TESTIMONIALS</h2>
+			</div>
+			<!-- Slider main container -->
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					
+					<div class="swiper-slide">
+						<div class="content-wrapper">
+							<div class="content">
+								<div class="swiper-avatar"><img src="https://dgtzuqphqg23d.cloudfront.net/aqUDdv8fco91cPIeBAetAcpDfUEOIuaIrivU11PMnBs-2048x1942.jpg"></div>
+								<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros."</p>
+								<p class="cite">- Katie Kookaburra, Cyclist</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-wrapper">
+							<div class="content">
+								<div class="swiper-avatar"><img src="https://dgtzuqphqg23d.cloudfront.net/aqUDdv8fco91cPIeBAetAcpDfUEOIuaIrivU11PMnBs-2048x1942.jpg"></div>
+								<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros."</p>
+								<p class="cite">- Katie Kookaburra, Cyclist</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- If we need pagination -->
+				<!-- If we need navigation buttons -->
+				<div class="swiper-nav-wrapper">
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div id="whatwedo" class="sec">
+		<div class="container">
+			<div class="heading">
+				<h2>WHAT WE DO?</h2>
+			</div>
+			<div class="three-col">
+				<div class="single-do first-we">
+					<h4>Podcast video editing</h4>
+					<p>Podcasters, many of them with 1M+ subscribers, trust us to edit promotional videos, interviews, stream shows, and any kind of video content.</p>
+					<p>
+						When you churn out videos like a candy machine dispensing treats, good video editing isn’t an option but a necessity to ensure the quality of the conten
+					</p>
+					<p>
+						You need a dedicated team like Veedyou Media to reduce your workload and also maintain a high standard which is a non-negotiable demand of all large broadcasters.
+					</p>
+					<p>Our multi-camera video edits are crisp, tight, and just fabulous.</p>
+				</div>
+				
+				<div class="single-do second-we">
+					<h4>YouTube video editing</h4>
+					<p>We know that firsthand from the YouTubers we are working with it. And we also know that video editing takes so much more time than shooting the video.</p>
+					<p>It’s a no-brainer that at some point you will need to outsource video editing and use the extra time to film more and more videos.</p>
+					<p>YouTubers are using Veedyou’s video editing services to do just that.</p>
+					<p>And it has been working great for many of them.</p>
+					
+				</div>
+				
+				<div class="single-do third-we">
+					<h4>Real estate video editing</h4>
+					<p>Real estate looks so much better in a cool video than just pictures.</p>
+					<p>And a lot of realtors understood that right away.</p>
+					<p>But not many real estate professionals have the time or skill set to put together that cool video that will get them more clients.</p>
+					<p>It doesn’t take much to trigger our curiosity and get us down to work.</p>
+				</div>
+				
+				<div class="single-do third-we">
+					<h4>Vertical video editing</h4>
+					<p>Do you have an idea, a couple of slides, or an iPhone clip; our video editors are here to lend their expertise to make a magnificent marketing tool from decent footage.</p>
+					<p>We pride ourselves on providing affordable video editing services for small businesses to help them realize their true potential.</p>
+					<p>For start-ups and small businesses, time is money.</p>
+					<p>So, without delay, share your raw footage, no matter if it was filmed with a smartphone or consumer-grade camera, let’s get it edited and polished and out there to the audience.</p>
+				</div>
+				
+				<div class="single-do second-we">
+					<h4>Vertical video editing</h4>
+					<p>Do you have an idea, a couple of slides, or an iPhone clip; our video editors are here to lend their expertise to make a magnificent marketing tool from decent footage.</p>
+					<p>We pride ourselves on providing affordable video editing services for small businesses to help them realize their true potential.</p>
+					<p>For start-ups and small businesses, time is money.</p>
+					<p>So, without delay, share your raw footage, no matter if it was filmed with a smartphone or consumer-grade camera, let’s get it edited and polished and out there to the audience.</p>
+				</div>
+				
+				<div class="single-do first-we">
+					<h4>Vertical video editing</h4>
+					<p>Do you have an idea, a couple of slides, or an iPhone clip; our video editors are here to lend their expertise to make a magnificent marketing tool from decent footage.</p>
+					<p>We pride ourselves on providing affordable video editing services for small businesses to help them realize their true potential.</p>
+					<p>For start-ups and small businesses, time is money.</p>
+					<p>So, without delay, share your raw footage, no matter if it was filmed with a smartphone or consumer-grade camera, let’s get it edited and polished and out there to the audience.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div id="process" class="sec">
+		<div class="container">
+			<div class="heading">
+				<h2>OUR PROCESS</h2>
+			</div>
+			<ul class="infoGraphic"> 
+				<li>
+					<div class="numberWrap">
+						<div class="number fontColor1">1</div>
+						<div class="coverWrap">
+							<div class="numberCover"></div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="icon iconCodepen"></div>
+						<h2>Send Video</h2>
+						<p>Send us your raw video clips through Google Drive, Dropbox or any other similar cloud storage service.</p>
+					</div>
+				</li>
+				<li>
+					<div class="numberWrap">
+						<div class="number fontColor2">2</div>
+						<div class="coverWrap">
+							<div class="numberCover"></div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="icon iconSocial"></div>
+						<h2>Get video</h2>
+						<p>We will email you a download link for your edited video in 5-7 days, on average.</p>
+					</div>
+				</li>
+				<li>
+					<div class="numberWrap">
+						<div class="number  fontColor3">3</div>
+						<div class="coverWrap">
+							<div class="numberCover"></div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="icon iconAirplane"></div>
+						<h2>Deliver</h2>
+						<p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+					</div>
+				</li>
+		</div>
+	</div>
+	
+	
+	<footer>
+		<div class="container">
+			<div class="footer-col">
+				<div>
+					<h4>Company Info</h4>
+					Veedyou Media SRL
+					<br /><br />
+					Address: Sos. Dudesti-Pantelimon 19, Room 78, Bucharest, Romania
+					<br /><br />
+					Fiscal Code: 37719910
+					<br /><br />
+					Registry No. : J40/8688/2017
+				</div>
+				
+				
+				<div>
+					<h4>Important Links</h4>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="index.html#offers">Offeres</a></li>
+						<li><a href="videos.html">Videos</a></li>
+						<li><a href="contact.php">Contact</a></li>
+					</ul>
+				</div>
+				
+				
+				<div>
+					<h4>Contact</h4>
+					
+					Ordering / Customer support: contact@veedyou.com
+					<br /><br />
+					Press / Media: office@veedyou.com
+					<br /><br />	
+					Management: cristian@veedyou.com
+					<br /><br />	
+					Phone number: +40 722 65 19 25
+					<br /><br />
+					Working hours:
+					<br /><br />
+					Monday - Friday: 8:00 - 18:00 EEST
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+	<div class="footer-bottom">
+		<div class="container">
+			&copy; 2024 All Rights Reserved.
+		</div>
+	</div>
+	
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+	<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
